@@ -27,9 +27,9 @@ An alphabet is a set of different symbols. Each symbol has a probablity of occur
 	
     alph = Alphabet syms p0
 
-Encode a message
+Encode a message 
 	
-    code = arithmeticEncode alph [0,0,1] (0,1000
+    code = arithmeticEncode alph [0,0,1] (0,1000)
 	
 Decode a message given a termination symbol
 
